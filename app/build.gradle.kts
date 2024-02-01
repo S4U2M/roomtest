@@ -40,7 +40,7 @@ android {
 }
 
 dependencies {
-    val room_version = "2.5.0"
+    val room_version = "2.6.0-rc01"
 
     implementation("androidx.room:room-runtime:$room_version")
     annotationProcessor("androidx.room:room-compiler:$room_version")
