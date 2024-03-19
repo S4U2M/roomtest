@@ -13,7 +13,7 @@ interface WordDao {
     fun getAllData() : List<WordEntity>
 
     @Insert(onConflict = OnConflictStrategy.IGNORE)
-    suspend fun insert(text : WordEntity)
+    suspend fun insert(text : WordEntity.)
 
     @Query("DELETE FROM word_table")
     fun deleteAllData()
